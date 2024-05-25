@@ -1,3 +1,14 @@
+#################################################
+# Sangay Dhaden
+# 1EE
+# 02230074
+#################################################
+# REFERENCES
+# https://www.blackbox.ai/chat/expert-pytho
+# https://chat.openai.com/c/91fc83d4-deaa-4b85-8d15-3837efa46920
+# https://www.youtube.com/watch?v=Qcefu1jVPds
+#################################################
+
 #Importing Necessary Modules
 import random #We create unique account numbers using 'random', which is used to generate random numbers.
 import string #There are constants provided by 'string', such as string.digits, which has all digit characters ('0' to '9').
