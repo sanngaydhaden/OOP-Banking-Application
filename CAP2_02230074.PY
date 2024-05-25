@@ -6,7 +6,7 @@
 # REFERENCES
 # https://www.blackbox.ai/chat/expert-pytho
 # https://chat.openai.com/c/91fc83d4-deaa-4b85-8d15-3837efa46920
-# https://www.youtube.com/watch?v=Qcefu1jVPds
+# https://www.google.com/search?q=inheritance+in+python&sca_esv=e472bba1732e8ddb&sca_upv=1&rlz=1C1GCEA_enBT981BT981&sxsrf=ADLYWILPcVdybueLwQJ5LI8potnoF0iVFA%3A1716632182173&ei=drpRZr-bCv-V4-EP_6KKmAE&ved=0ahUKEwi_rrabyaiGAxX_yjgGHX-RAhMQ4dUDCBA&uact=5&oq=inheritance+in+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWluaGVyaXRhbmNlIGluIHB5dGhvbjIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjrHVD7AVjMFXABeAGQAQCYAdwBoAH5DaoBBTAuOC4yuAEDyAEA-AEBmAILoAKrDsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgITEC4YgAQYsAMYQxjIAxiKBdgBAZgDAIgGAZAGEroGBggBEAEYCJIHBTEuNi40oAe0OA&sclient=gws-wiz-serp
 #################################################
 
 #Importing Necessary Modules
@@ -77,7 +77,7 @@ def login(account_number, password): #Login compares the supplied credentials to
     accounts = load_accounts_from_file()
     for account in accounts:
         if account.account_number == account_number and account.password == password:
-            return account
+            return account 
     return None
 
 def save_accounts_to_file(accounts): #Every account is written to a new line in a file called accounts.txt by the function save_accounts_to_file.
